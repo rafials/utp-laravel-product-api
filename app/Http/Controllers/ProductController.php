@@ -7,28 +7,28 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     private static $products = [
-        [
-            'id' => 1,
-            'name' => 'Laptop ASUS Vivobook',
-            'category' => 'Elektronik',
-            'price' => 7500000,
-            'stock' => 10
-        ],
-        [
-            'id' => 2,
-            'name' => 'Mouse Wireless Logitech',
-            'category' => 'Aksesoris',
-            'price' => 150000,
-            'stock' => 25
-        ],
-        [
-            'id' => 3,
-            'name' => 'Keyboard Mechanical',
-            'category' => 'Aksesoris',
-            'price' => 450000,
-            'stock' => 15
-        ]
-    ];
+    [
+        'id' => 1,
+        'name' => 'Manual Coffee Grinder',
+        'category' => 'Peralatan Kopi',
+        'price' => 185000,
+        'stock' => 18
+    ],
+    [
+        'id' => 2,
+        'name' => 'Vietnam Drip Stainless',
+        'category' => 'Peralatan Kopi',
+        'price' => 45000,
+        'stock' => 35
+    ],
+    [
+        'id' => 3,
+        'name' => 'Kopi Arabika Gayo 250gr',
+        'category' => 'Biji Kopi',
+        'price' => 78000,
+        'stock' => 22
+    ]
+];
 
     public function index()
     {
